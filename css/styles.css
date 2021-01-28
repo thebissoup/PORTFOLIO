@@ -1,0 +1,96 @@
+
+
+*{
+    font-weight: normal;
+    color: white;
+}
+.navigation{
+    margin-right: -50px;
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.navigation ul { /* The unordered list */
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 80px; /* for distance of unordered list on right*/
+    white-space: nowrap;
+}
+
+.navigation ul li a{ /* The navigation unordered list anchor links*/
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 0 25px; /*distances between anchor links*/
+    display: inline-block;
+}
+
+
+.cool-link::after{
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+
+.cool-link:hover::after{
+    width: 100%;
+    transition: width .3s;
+
+}
+
+.navigation ul li{
+    display: inline-block;
+    
+}
+
+.logobox{  /* the logo */
+    color: white;
+    font-size: 45px;
+    line-height: 40px;
+    height: 175px;
+    width: 175px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 176px;
+}
+
+.logotext{
+    margin:0 5px;
+    padding-left: 4px; /*distance of text inside the white box */
+}
+
+.flexbox-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox-main{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    font-size: 75px;
+}
+
+.profile-photo{
+    width: 315px;
+    height: 300px;
+}
+
+.simple-text{
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 400px;
+    height: 220px;
+}
+
+
