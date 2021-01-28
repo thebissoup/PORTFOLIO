@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/wol4qov.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>DAVID BISSOU</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Bissou</title>
 </head>
 <style>
+    *{
+       box-sizing: border-box; 
+    }
+        body{
+            background: linear-gradient(112deg, rgba(138, 76, 53, .65) 15%,
+            rgba(23, 6, 0, 1)), url("images/studydesk.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: ivymode, sans-serif;
+    }
 </style>
 <body>
-    <div class="main-grid"> <!-- Entire Website is mained by css grid-->
-
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </lSbel>
-            <label class="logo">DesignX</label>
-            <ul>
-                <li><a class="active" href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Resume</a></li>
-                <li><a href="">Contact</a></li>
-                <div class="logo"></div>
-            </ul>
-        </nav>
-
-
-                
-
-        <main>
-            <h1>Welcome,</h1>
-            <img src="/images/classicvibes.png" alt="">
-
-            <p>Hello, thanks for visiting my page. Programming and designing are recent passions of mine. I know I have lots to learn, but I also have plenty of skills to offer. <br>Feel free to check out any of my projects. </p>
-            <a href="">Check Out My Work</a>
-            
-
-        </main>
-
-        <footer>
-            <div class="social-links">
-                <div class="social-link"><a href=""><img src="" alt=""></a></div>
-                <div class="social-link"><a href=""><img src="" alt=""></a></div>
-                <div class="social-link"><a href=""><img src="" alt=""></a></div>
+        <div class="flexbox-body">
+            <div class="navigation">
+                <label for="" class="logobox">
+                    <p class="logotext">
+                        DAVID BISSOU
+                    </p>
+                </label>
+                <ul> 
+                    <!-- Here goes the navigation bar-->
+                    <li><a href="" class="active cool-link">Home</a></li>
+                    <li><a href="" class="cool-link">About</a></li>
+                    <li><a href="" class="cool-link">Resume</a></li>
+                    <li><a href="" class="cool-link">Contact</a></li>
+                </ul>
             </div>
-        </footer>
-
-    </div>
+    
+            <div class="main flexbox-main">
+                <div class="flex-item">
+                    <h1 class="welcome">Welcome,</h1>
+                </div>
+                <div class="flex-item">
+                    <img class="profile-photo" src="images/profilephoto.png" alt="">
+                </div>
+                <div class="flex-item">
+                    <p class='simple-text'>Hello, thanks for visiting my page. Programming and designing are recent passions of mine.<br> I know I have lots to learn, but I also have plenty of skills to offer. <br>Feel free to check out any of my projects.</p>
+                </div>
+                    
+            </div>
+    
+            <div class="footer">
+                <div class="contact-links"><img src="images/icons8-twitter-144.png" alt="Twitter"></div>
+                <div class="contact-links"><img src="images/instagram.svg" alt="Instagram"></div>
+                <div class="contact-links"><img src="images/icons8-github-384.png" alt="GitHub"></div>
+            </div>
+        </div>
 </body>
 </html>
