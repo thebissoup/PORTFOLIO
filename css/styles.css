@@ -71,13 +71,26 @@
     flex-direction: column;
 }
 
-.flexbox-main{
-    display: flex;
-    justify-content: center;
+/* .flexbox-main{
+  We can use this when we create our media query  
+} */
+
+.flex-item-1{
+    position: absolute;
+    top: 125px;
+    left: 175px;
+    z-index: 5;
 }
 
 .welcome{
-    font-size: 75px;
+    font-size: 100px;
+    letter-spacing: 4px;
+}
+
+.flex-item-2{
+    position: absolute;
+    top: 250px;
+    left: 200px;
 }
 
 .profile-photo{
@@ -85,12 +98,19 @@
     height: 300px;
 }
 
+.flex-item-3{
+    position:absolute;
+    top: 325px;
+    left: 600px;
+}
+
 .simple-text{
     font-family: acumin-pro, sans-serif;
+    font-size: 25px;
     font-weight: 100;
     font-style: normal;
-    width: 400px;
-    height: 220px;
+    width: 600px;
+    height: auto;
 }
 
 
