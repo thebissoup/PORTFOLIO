@@ -4,6 +4,7 @@
     font-weight: normal;
     color: white;
 }
+
 .navigation{
     margin-right: -50px;
     display: flex;
@@ -111,6 +112,29 @@
     font-style: normal;
     width: 600px;
     height: auto;
+}
+
+.footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-links{
+    padding: 0 25px;
+}
+
+.social-images{
+    height: 48px;
+    width: 48px;
 }
 
 
